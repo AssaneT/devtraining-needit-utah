@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="75c0ea9b9776b11023e03766f053af83" label="Carte d'indentite" max_length="40" name="x_58872_needit_carte_d_indentite" type="collection">
+        <element label="Age user" max_length="40" name="age_user" type="integer"/>
+        <element label="id" max_length="40" name="id" type="integer"/>
+        <element label="New field 2" max_length="40" name="new_field_2" type="integer"/>
+        <element label="nom user" max_length="40" name="nom_user" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Date de naissance" mandatory="true" max_length="40" name="u_glide_date_1" type="glide_date"/>
+    </element>
+</database>
